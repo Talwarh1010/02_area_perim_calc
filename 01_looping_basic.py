@@ -1,12 +1,22 @@
+# checks that the users enter a number that is more than zero
 valid = False
 while not valid:
- 
-    response = float(input("Enter a Number? "))
-    
-    if response > 0:
-        valid = True
-    
-    else:
-        print("Please enter a number that is not zero.")
-        print()
+      
+    error = ("Please enter a number that is not zero.")
         
+    try:
+        
+        # asks the user to enter a number
+        response = float(input("Enter a Number: "))
+        
+        # checks number  is more than zero
+        if response > 0:
+            valid = True
+            
+        # outputs error if input is invalid
+        else:
+            print(error)
+            print()
+        
+    except ValueError:
+       print(error)     
