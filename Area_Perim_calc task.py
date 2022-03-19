@@ -27,15 +27,30 @@ def num_check(question):
             
             
 # main routine goes here
-width = num_check("width: ")
-height = num_check("height: ") 
 
-# calculate area ( width x height)
-area = width * height
-print(area)
-# calculate perimeter
-Perimeter = width * 2 + height * 2
-print( " The perimeter is, {} square units". format(Perimeter))
-print(" The area is, {} units".format(area))
+# introduction / heading print statements
+print()
+print( " WELCOME TO AREA / PERIMETER CALCULATOR!")
+print()
+# loop begins
+keep_going = ""
+while keep_going == "":
+
+    width = num_check("width: ")
+    height = num_check("height: ") 
+
+    # calculate area ( width x height)
+    area = width * height
+    print(area)
+    # calculate perimeter
+    Perimeter = width * 2 + height * 2
+    print( " The perimeter is, {:.2f} square units". format(Perimeter))
+    print(" The area is, {:.2f} units".format(area))
+    print()
+    
+    keep_going = input("Press <enter> to keep going or any key to quit")
+
+print()    
+print("Thanks for using area / perimeter calculator!")   
 
 
