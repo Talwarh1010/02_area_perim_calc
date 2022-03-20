@@ -44,11 +44,11 @@ while keep_going == "":
     print(area)
     # calculate perimeter
     Perimeter = width * 2 + height * 2
-    print( " The perimeter is, {:.2f} square units". format(Perimeter))
-    print(" The area is, {:.2f} units".format(area))
+    print( " The perimeter is, {:.2f} units". format(Perimeter))
+    print(" The area is, {:.2f} square units".format(area))
     print()
     
-    keep_going = input("Press <enter> to keep going or any key to quit")
+    keep_going = input("Press <enter> to keep going or press any key to quit then enter")
 
 print()    
 print("Thanks for using area / perimeter calculator!")   
