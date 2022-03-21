@@ -41,7 +41,7 @@ while keep_going == "":
 
     # calculate area ( width x height)
     area = width * height
-    print(area)
+    
     # calculate perimeter
     Perimeter = width * 2 + height * 2
     print( " The perimeter is, {:.2f} units". format(Perimeter))
