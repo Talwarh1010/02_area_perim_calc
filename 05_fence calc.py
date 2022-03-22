@@ -36,6 +36,20 @@ print()
 # Start of calculator loop
 keep_going = ""
 while keep_going == "":
+    width =(float(input( "width: "))
+    length = (float(input( "Length: "))
+    cost/m = (float(input( "cost/m ?")))   
+    
+     # calculate fence price
+    Perimeter = ( width * 2 + height * 2)
+    Cost = (perimeter * cost/m)
+    
+    print(" The cost for the fence is {}". format(Cost))
+           
+                 
+    
+    
+        
 
     # call your number checker function three times to get the 
     # width, length and cost_per_m of the fencing
