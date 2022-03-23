@@ -45,8 +45,8 @@ while keep_going == "":
     Perimeter = ( width * 2 + length * 2)
     Cost = (Perimeter * costm)
     
-    print(" The perimeter of the fence is {} metres". format(Perimeter))
-    print(" The cost for the fence is {} dollers". format(Cost))
+    print(" The perimeter of the fence is {:.2f} metres". format(Perimeter))
+    print(" The cost for the fence is {:.2f} dollers". format(Cost))
         
     
     keep_going = input("Press <enter> to keep going or press any key then enter to quit")
