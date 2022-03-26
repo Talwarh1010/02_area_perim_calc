@@ -36,7 +36,7 @@ print()
 # Start of calculator loop
 keep_going = ""
 while keep_going == "":
-# Input for width, length and cost/mk   
+# Input for width, length and cost/m  
     width =  num_check( "width: ")
     length = num_check( "Length: ")
     costm = num_check( "cost/m: ")
